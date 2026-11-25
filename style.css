@@ -428,6 +428,7 @@ a:hover { color: var(--dourado); }
   color: var(--cinza-texto);
   line-height: 1.65;
   margin-bottom: 14px;
+  text-align: justify;
 }
 
 .card-info {
@@ -463,6 +464,7 @@ a:hover { color: var(--dourado); }
   margin-bottom: 14px;
   color: var(--cinza-texto);
   line-height: 1.75;
+  text-align: justify;
 }
 
 .dados-basicos {
