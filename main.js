@@ -10,100 +10,127 @@
 const DATABASE = [
   {
     id: 1,
-    nome: "Paroquia Santa Ana",
+    nome: "Par&oacute;quia Santa Ana",
+    nomeTexto: "Paróquia Santa Ana",
     categoria: "Fe e Tradicao",
-    descricao: "Igreja matriz do municipio, padroeira da cidade. Festejos anuais de 17 a 26 de julho.",
-    localizacao: "Rua Manoel Bezerra, Centro, Monsenhor Hipolito PI",
+    categoriaLabel: "F&eacute; e Tradi&ccedil;&atilde;o",
+    descricao: "Igreja matriz do munic&iacute;pio, padroeira da cidade. Festejos anuais de 17 a 26 de julho, reunindo fi&eacute;is de toda a regi&atilde;o.",
+    localizacao: "Rua Manoel Bezerra, Centro, Monsenhor Hip&oacute;lito PI",
     lat: -6.9931,
     lng: -41.0255,
+    mapsUrl: "https://www.google.com/maps/search/Paroquia+Santa+Ana+Monsenhor+Hipolito+PI",
     fonte: "Dados verificados - Google Maps / IBGE",
     hash: "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2"
   },
   {
     id: 2,
     nome: "Morro da Cruz",
+    nomeTexto: "Morro da Cruz",
     categoria: "Fe e Tradicao",
-    descricao: "Ponto emblematico com Cruzeiro e Via-Sacra de 14 estacoes. Vista panoramica da cidade.",
-    localizacao: "Morro da Cruz, Monsenhor Hipolito PI",
+    categoriaLabel: "F&eacute; e Tradi&ccedil;&atilde;o",
+    descricao: "Ponto emblem&aacute;tico da cidade, abriga um Cruzeiro e uma escadaria com 100 degraus. Destino de peregrina&ccedil;&atilde;o religiosa com vista panor&acirc;mica de toda a cidade.",
+    localizacao: "Morro da Cruz, Monsenhor Hip&oacute;lito PI",
     lat: -6.9918,
     lng: -41.0272,
+    mapsUrl: "https://www.google.com/maps/search/Morro+da+Cruz+Monsenhor+Hipolito+PI",
     fonte: "Dados verificados - Google Maps",
     hash: "b2c3d4e5f6a7b2c3d4e5f6a7b2c3d4e5f6a7b2c3d4e5f6a7b2c3d4e5f6a7b2c3"
   },
   {
     id: 3,
     nome: "Missa do Vaqueiro",
+    nomeTexto: "Missa do Vaqueiro",
     categoria: "Fe e Tradicao",
-    descricao: "Celebrada no primeiro domingo de maio. Vaqueiros com trajes tipicos de couro participam da missa ao ar livre.",
-    localizacao: "Monsenhor Hipolito PI",
+    categoriaLabel: "F&eacute; e Tradi&ccedil;&atilde;o",
+    descricao: "Celebrada no primeiro domingo de maio. Vaqueiros com trajes t&iacute;picos de couro participam da missa ao ar livre, numa express&atilde;o aut&ecirc;ntica da f&eacute; sertaneja.",
+    localizacao: "Monsenhor Hip&oacute;lito PI",
     lat: -6.9928,
     lng: -41.0260,
+    mapsUrl: "https://www.google.com/maps/search/Monsenhor+Hipolito+PI+Piaui",
     fonte: "Dados verificados - Prefeitura Municipal",
     hash: "c3d4e5f6a7b8c3d4e5f6a7b8c3d4e5f6a7b8c3d4e5f6a7b8c3d4e5f6a7b8c3d4"
   },
   {
     id: 4,
-    nome: "Bica das Nascencas",
+    nome: "Bica das Nasc&ecirc;n&ccedil;as",
+    nomeTexto: "Bica das Nascenças",
     categoria: "Natureza",
-    descricao: "Nascente de aguas cristalinas formando piscinas naturais. Principal atrativo de ecoturismo da regiao.",
-    localizacao: "Zona Rural, Monsenhor Hipolito PI",
+    categoriaLabel: "Natureza e Lazer",
+    descricao: "Nascente de &aacute;guas cristalinas formando piscinas naturais. Principal atrativo de ecoturismo da regi&atilde;o, especialmente nos per&iacute;odos chuvosos.",
+    localizacao: "Zona Rural, Monsenhor Hip&oacute;lito PI",
     lat: -6.9850,
     lng: -41.0310,
+    mapsUrl: "https://www.google.com/maps/search/Nascencas+Monsenhor+Hipolito+PI",
     fonte: "Dados verificados - Google Maps",
     hash: "d4e5f6a7b8c9d4e5f6a7b8c9d4e5f6a7b8c9d4e5f6a7b8c9d4e5f6a7b8c9d4e5"
   },
   {
     id: 5,
-    nome: "Rio Riacho",
+    nome: "Rio Riach&atilde;o",
+    nomeTexto: "Rio Riachão",
     categoria: "Natureza",
-    descricao: "Rio que da nome ao municipio. Fundamental para a agricultura local, com paisagens tipicas da caatinga em suas margens.",
-    localizacao: "Rio Riacho, Monsenhor Hipolito PI",
+    categoriaLabel: "Natureza e Lazer",
+    descricao: "Rio que d&aacute; nome ao munic&iacute;pio. Fundamental para a agricultura local, com paisagens t&iacute;picas da caatinga em suas margens.",
+    localizacao: "Rio Riach&atilde;o, Monsenhor Hip&oacute;lito PI",
     lat: -6.9905,
     lng: -41.0280,
-    fonte: "Dados verificados - IBGE / Mapa Topografico",
+    mapsUrl: "https://www.google.com/maps/search/Rio+Riachao+Monsenhor+Hipolito+PI",
+    fonte: "Dados verificados - IBGE / Mapa Topogr&aacute;fico",
     hash: "e5f6a7b8c9d0e5f6a7b8c9d0e5f6a7b8c9d0e5f6a7b8c9d0e5f6a7b8c9d0e5f6"
   },
   {
     id: 6,
-    nome: "Praca Central",
+    nome: "Pra&ccedil;a Central",
+    nomeTexto: "Praça Central",
     categoria: "Natureza",
-    descricao: "Espaco publico central da cidade, com jardins e area de lazer em frente a Igreja Matriz.",
-    localizacao: "Centro, Monsenhor Hipolito PI",
+    categoriaLabel: "Natureza e Lazer",
+    descricao: "Espa&ccedil;o p&uacute;blico central da cidade, com jardins e &aacute;rea de lazer em frente &agrave; Igreja Matriz. Palco de festividades e eventos culturais.",
+    localizacao: "Centro, Monsenhor Hip&oacute;lito PI",
     lat: -6.9930,
     lng: -41.0260,
+    mapsUrl: "https://www.google.com/maps/search/Praca+Central+Monsenhor+Hipolito+PI",
     fonte: "Dados verificados - Google Maps",
     hash: "f6a7b8c9d0e1f6a7b8c9d0e1f6a7b8c9d0e1f6a7b8c9d0e1f6a7b8c9d0e1f6a7"
   },
   {
     id: 7,
     nome: "Festa dos Batonzeiros",
-    categoria: "Cultura e Sabores",
-    descricao: "Celebracao da arte popular dos Batonzeiros, artistas que confeccionam enfeites de papel colorido para festas e celebracoes religiosas.",
-    localizacao: "Monsenhor Hipolito PI",
+    nomeTexto: "Festa dos Batonzeiros",
+    categoria: "Cultura",
+    categoriaLabel: "Cultura e Sabores",
+    descricao: "Celebra&ccedil;&atilde;o da arte popular dos Batonzeiros, artistas que confeccionam enfeites de papel colorido para festas e celebra&ccedil;&otilde;es religiosas e juninas.",
+    localizacao: "Monsenhor Hip&oacute;lito PI",
     lat: -6.9928,
     lng: -41.0260,
+    mapsUrl: "https://www.google.com/maps/search/Monsenhor+Hipolito+PI+Piaui",
     fonte: "Dados verificados - Prefeitura Municipal / SECULT-PI",
     hash: "a7b8c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7b8"
   },
   {
     id: 8,
-    nome: "Circuito Gastronomico Sertanejo",
-    categoria: "Cultura e Sabores",
-    descricao: "Culinaria tipica: baiao-de-dois, carne de sol, galinha caipira e cajuina piauiense. Sabores autenticos do sertao.",
-    localizacao: "Monsenhor Hipolito PI",
+    nome: "Circuito Gastron&ocirc;mico Sertanejo",
+    nomeTexto: "Circuito Gastronômico Sertanejo",
+    categoria: "Cultura",
+    categoriaLabel: "Cultura e Sabores",
+    descricao: "Culin&aacute;ria t&iacute;pica: bai&atilde;o-de-dois, carne de sol, galinha caipira e caju&iacute;na piauiense. Sabores aut&ecirc;nticos do sert&atilde;o.",
+    localizacao: "Monsenhor Hip&oacute;lito PI",
     lat: -6.9928,
     lng: -41.0260,
+    mapsUrl: "https://www.google.com/maps/search/Restaurantes+Monsenhor+Hipolito+PI",
     fonte: "Dados verificados - Secretaria de Turismo PI",
     hash: "b8c9d0e1f2a3b8c9d0e1f2a3b8c9d0e1f2a3b8c9d0e1f2a3b8c9d0e1f2a3b8c9"
   },
   {
     id: 9,
-    nome: "CETIJAB - Projeto Raizes e Rotas",
-    categoria: "Cultura e Sabores",
-    descricao: "Centro Estadual de Tempo Integral Jose Alves Bezerra. Projeto pedagogico de valorizacao da historia e cultura local.",
-    localizacao: "Monsenhor Hipolito PI",
+    nome: "CETIJAB &mdash; Projeto Ra&iacute;zes e Rotas",
+    nomeTexto: "CETIJAB — Projeto Raízes e Rotas",
+    categoria: "Cultura",
+    categoriaLabel: "Cultura e Sabores",
+    descricao: "Centro Estadual de Tempo Integral Jos&eacute; Alves Bezerra. Projeto pedag&oacute;gico de valoriza&ccedil;&atilde;o da hist&oacute;ria e cultura local de Monsenhor Hip&oacute;lito.",
+    localizacao: "Monsenhor Hip&oacute;lito PI",
     lat: -6.9928,
     lng: -41.0260,
+    mapsUrl: "https://www.google.com/maps/search/CETIJAB+Monsenhor+Hipolito+PI",
     fonte: "Dados institucionais CETIJAB",
     hash: "c9d0e1f2a3b4c9d0e1f2a3b4c9d0e1f2a3b4c9d0e1f2a3b4c9d0e1f2a3b4c9d0"
   }
@@ -118,7 +145,7 @@ async function sha256(mensagem) {
     const hashArray = Array.from(new Uint8Array(hashBuffer));
     return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
   } catch (e) {
-    return 'Hash indisponivel (erro: ' + e.message + ')';
+    return 'Hash indispon&iacute;vel (erro: ' + e.message + ')';
   }
 }
 
@@ -135,13 +162,16 @@ function renderizarCards(dados) {
   container.innerHTML = dados.map(item => `
     <div class="db-card" data-categoria="${item.categoria}">
       <div class="db-card-nome">${item.nome}</div>
-      <div class="db-card-cat">${item.categoria}</div>
+      <div class="db-card-cat">${item.categoriaLabel}</div>
       <p class="db-card-desc">${item.descricao}</p>
       <div class="db-card-loc">&#128205; ${item.localizacao}</div>
       <div class="db-card-hash" title="Hash SHA-256 de integridade">
         &#128274; ${item.hash}
       </div>
-      <div class="db-card-status">&#9989; Integro | ${item.fonte}</div>
+      <div class="db-card-footer">
+        <span class="db-card-status">&#9989; &Iacute;ntegro | ${item.fonte}</span>
+        <a href="${item.mapsUrl}" target="_blank" rel="noopener" class="btn-mapa-db">&#128205; Ver no Mapa</a>
+      </div>
     </div>
   `).join('');
 }
@@ -160,10 +190,13 @@ function renderizarTabela(dados) {
     <tr>
       <td>${idx + 1}</td>
       <td><strong>${item.nome}</strong></td>
-      <td>${item.categoria}</td>
+      <td>${item.categoriaLabel}</td>
       <td>${item.localizacao}</td>
       <td><div class="hash-mini">${item.hash}</div></td>
-      <td><span class="status-ok">&#9989; OK</span></td>
+      <td>
+        <span class="status-ok">&#9989; OK</span>
+        <a href="${item.mapsUrl}" target="_blank" rel="noopener" class="btn-mapa-tabela">&#128205; Mapa</a>
+      </td>
     </tr>
   `).join('');
 }
@@ -171,14 +204,14 @@ function renderizarTabela(dados) {
 // ----- FILTRAR DADOS -----
 function filtrarDados(busca, categoria) {
   return DATABASE.filter(item => {
-    const textoOk = !busca || 
-      item.nome.toLowerCase().includes(busca.toLowerCase()) ||
+    const textoOk = !busca ||
+      item.nomeTexto.toLowerCase().includes(busca.toLowerCase()) ||
       item.descricao.toLowerCase().includes(busca.toLowerCase()) ||
       item.categoria.toLowerCase().includes(busca.toLowerCase()) ||
       item.localizacao.toLowerCase().includes(busca.toLowerCase());
-    
+
     const catOk = categoria === 'todos' || item.categoria === categoria;
-    
+
     return textoOk && catOk;
   });
 }
@@ -222,7 +255,7 @@ async function iniciarAuditor() {
       if (hashEl.textContent) {
         navigator.clipboard.writeText(hashEl.textContent)
           .then(() => {
-            copiarBtn.textContent = '&#10003; Copiado!';
+            copiarBtn.textContent = '\u2713 Copiado!';
             setTimeout(() => { copiarBtn.innerHTML = '&#128203; Copiar'; }, 2000);
           })
           .catch(() => {
@@ -232,7 +265,7 @@ async function iniciarAuditor() {
             ta.select();
             document.execCommand('copy');
             document.body.removeChild(ta);
-            copiarBtn.textContent = '&#10003; Copiado!';
+            copiarBtn.textContent = '\u2713 Copiado!';
             setTimeout(() => { copiarBtn.innerHTML = '&#128203; Copiar'; }, 2000);
           });
       }
@@ -251,7 +284,6 @@ function iniciarControlesDB() {
 
   let buscaAtual = '';
   let categoriaAtual = 'todos';
-  let modoAtual = 'cards';
 
   function atualizar() {
     const dados = filtrarDados(buscaAtual, categoriaAtual);
@@ -277,7 +309,6 @@ function iniciarControlesDB() {
 
   if (btnCards && btnTabela && dbCards && dbTabela) {
     btnCards.addEventListener('click', () => {
-      modoAtual = 'cards';
       dbCards.style.display = 'grid';
       dbTabela.style.display = 'none';
       btnCards.classList.add('view-ativo');
@@ -285,7 +316,6 @@ function iniciarControlesDB() {
     });
 
     btnTabela.addEventListener('click', () => {
-      modoAtual = 'tabela';
       dbCards.style.display = 'none';
       dbTabela.style.display = 'block';
       btnCards.classList.remove('view-ativo');
@@ -306,7 +336,6 @@ function iniciarModalAdmin() {
   const usuarioInput = document.getElementById('admin-usuario');
   const senhaInput = document.getElementById('admin-senha');
 
-  // Hash esperado para "Monsenhor@2026"
   const HASH_ESPERADO = '9cc6d8279e8798b7abe0df4cb5e82ae2df2e07da179275f326a2bbbeac0d2625';
   const USUARIO_ESPERADO = 'gestor_cetijab';
 
@@ -327,7 +356,7 @@ function iniciarModalAdmin() {
       const senha = senhaInput ? senhaInput.value : '';
 
       if (!usuario || !senha) {
-        if (msgEl) msgEl.textContent = 'Preencha usuario e senha.';
+        if (msgEl) msgEl.textContent = 'Preencha usu\u00e1rio e senha.';
         return;
       }
 
@@ -336,17 +365,14 @@ function iniciarModalAdmin() {
 
       try {
         const hashSenha = await sha256(senha + 'RaizesRotasMHAug2026SecureSalt!#99');
-        
         if (usuario === USUARIO_ESPERADO && hashSenha === HASH_ESPERADO) {
-          if (msgEl) msgEl.style.color = '#52b788';
-          if (msgEl) msgEl.textContent = 'Acesso autorizado! Bem-vindo, Gestor CETIJAB.';
+          if (msgEl) { msgEl.style.color = '#52b788'; msgEl.textContent = 'Acesso autorizado! Bem-vindo, Gestor CETIJAB.'; }
           setTimeout(() => { fecharModal(); }, 2000);
         } else {
-          if (msgEl) msgEl.style.color = '#ef4444';
-          if (msgEl) msgEl.textContent = 'Credenciais invalidas. Acesso negado.';
+          if (msgEl) { msgEl.style.color = '#ef4444'; msgEl.textContent = 'Credenciais inv\u00e1lidas. Acesso negado.'; }
         }
       } catch (e) {
-        if (msgEl) msgEl.textContent = 'Erro de autenticacao.';
+        if (msgEl) msgEl.textContent = 'Erro de autentica\u00e7\u00e3o.';
       } finally {
         entrarBtn.disabled = false;
       }
@@ -358,7 +384,7 @@ function iniciarModalAdmin() {
   });
 }
 
-// ----- SCROLL SUAVE PARA ANCORAS -----
+// ----- SCROLL SUAVE -----
 function iniciarScrollSuave() {
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', (e) => {
@@ -374,6 +400,7 @@ function iniciarScrollSuave() {
 
 // ----- ANIMACAO DE ENTRADA -----
 function iniciarAnimacoes() {
+  if (!('IntersectionObserver' in window)) return;
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
@@ -384,7 +411,7 @@ function iniciarAnimacoes() {
     });
   }, { threshold: 0.1 });
 
-  document.querySelectorAll('.card, .db-card, .coord-card').forEach(el => {
+  document.querySelectorAll('.card, .coord-card').forEach(el => {
     el.style.opacity = '0';
     el.style.transform = 'translateY(30px)';
     el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
@@ -398,11 +425,9 @@ document.addEventListener('DOMContentLoaded', () => {
   iniciarAuditor();
   iniciarModalAdmin();
   iniciarScrollSuave();
-  
-  // Animacoes com pequeno delay
-  setTimeout(iniciarAnimacoes, 100);
+  setTimeout(iniciarAnimacoes, 150);
 
-  console.log('%cRaizes e Rotas - CETIJAB', 'color:#c9a84c;font-size:16px;font-weight:bold;');
-  console.log('%cMonsenhor Hipolito, PI | Sistema HASHING SHA-256 Ativo', 'color:#52b788;font-size:12px;');
-  console.log('%cCoord: Prof. Jordana Yrla | IBGE: 2206403', 'color:#888;font-size:11px;');
+  console.log('%cRa\u00edzes e Rotas \u2014 CETIJAB', 'color:#c9a84c;font-size:16px;font-weight:bold;');
+  console.log('%cMonsenhor Hip\u00f3lito, PI | Sistema HASHING SHA-256 Ativo', 'color:#52b788;font-size:12px;');
+  console.log('%cCoord: Prof.\u00aa Jordana Yrla | IBGE: 2206403', 'color:#888;font-size:11px;');
 });

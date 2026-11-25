@@ -971,6 +971,87 @@ a:hover { color: var(--dourado); }
 }
 
 /* =====================================================
+   BOTAO VER NO MAPA (nos cards das secoes)
+   ===================================================== */
+.btn-mapa {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 14px;
+  padding: 8px 18px;
+  border-radius: 8px;
+  background: var(--verde-medio);
+  color: var(--branco);
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-decoration: none;
+  border: 2px solid var(--verde-medio);
+  transition: all var(--transicao);
+}
+
+.btn-mapa:hover {
+  background: var(--verde-escuro);
+  border-color: var(--verde-escuro);
+  color: var(--dourado-claro);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(0,0,0,0.2);
+}
+
+/* BOTAO VER NO MAPA (na base de dados) */
+.db-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.btn-mapa-db {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 14px;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--dourado-claro);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-decoration: none;
+  border: 1px solid var(--dourado);
+  transition: all var(--transicao);
+  white-space: nowrap;
+}
+
+.btn-mapa-db:hover {
+  background: var(--dourado);
+  color: var(--preto-suave);
+}
+
+.btn-mapa-tabela {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border-radius: 5px;
+  background: transparent;
+  color: var(--dourado-claro);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-decoration: none;
+  border: 1px solid var(--dourado);
+  transition: all var(--transicao);
+  margin-left: 8px;
+}
+
+.btn-mapa-tabela:hover {
+  background: var(--dourado);
+  color: var(--preto-suave);
+}
+
+/* =====================================================
    RESPONSIVIDADE
    ===================================================== */
 @media (max-width: 768px) {
